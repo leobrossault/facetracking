@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "number-leading-zero": null,
+    "at-rule-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "no-empty-source": null,
+    "max-empty-lines": null,
+    "indentation": null,
+    "no-eol-whitespace": null,
+    "declaration-colon-newline-after": null,
+    "rule-nested-empty-line-before": null,
+    "declaration-block-properties-order": [
+      [
+        "position", "z-index", "top", "right", "bottom", "left", "display", "overflow", "box-sizing", "width", "height", "padding", "margin", "border", "background", "color", "font-family", "font-size", "line-height", "text-align", "cursor"
+      ], { unspecified: "bottom" }
+    ]
+  }
+}
